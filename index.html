@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>方块原野 · Blocklands</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<canvas id="world" aria-label="方块世界游戏画布"></canvas>
+<header><div class="logo">▦</div><div><h1>方块原野 <span>BLOCKLANDS</span></h1><p>探索、挖掘，建造属于你的世界。</p></div><button id="help" title="操作说明">?</button></header>
+<aside id="instructions"><h2>每一块，都是新可能。</h2><p>A / D 或 ← / → 移动 · 空格跳跃</p><p>左键挖掘 · 右键放置 · 1—5 / 滚轮选方块</p><p>触屏：方向键移动，切换模式后点按挖掘或放置。</p><button id="play">开始探索 →</button></aside>
+<div id="status" role="status"></div>
+<nav id="toolbar" aria-label="方块快捷栏"></nav>
+<footer><span>✦ 自由创造模式</span><button id="save">保存世界</button><button id="reset">新世界</button></footer>
+<div id="touch"><button data-key="ArrowLeft" aria-label="向左">◀</button><button data-key="ArrowRight" aria-label="向右">▶</button><button data-key="Space" aria-label="跳跃">↑</button><button id="mode">模式：挖掘</button></div>
+<script src="game.js"></script>
+</body></html>
